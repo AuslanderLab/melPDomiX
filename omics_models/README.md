@@ -42,8 +42,8 @@ Changing this parameter initializes the weights to linear instead of being zeroe
 Move the AMS repository cloned/downloaded to your desired directory and training and test variant text files.
 
 ```
-    mv training_variants.txt <path to omics project>/omics_models/train/training_variants.txt
-    mv testing_variants.txt <path to omics project>/omics_models/test/testing_variants.txt
+mv training_variants.txt <path to omics project>/omics_models/train/training_variants.txt
+mv testing_variants.txt <path to omics project>/omics_models/test/testing_variants.txt
 ```
 
 Fill out desired parameters and use command as shown in [01_run_AM_batch.sh](./01_run_AM_batch.sh)
