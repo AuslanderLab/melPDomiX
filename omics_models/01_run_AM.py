@@ -1,3 +1,4 @@
+# Modified version of https://github.com/google-deepmind/alphamissense/blob/main/test/test_installation.py
 import argparse
 from alphamissense.data import pipeline_missense
 from alphamissense.model import config

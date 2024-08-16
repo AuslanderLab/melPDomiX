@@ -19,7 +19,7 @@ cd /path/to/workspace/alphanissense/
 source /path/to/envs/venv/bin/activate
 
 # Get the line of the input text file corresponding to the array task ID 
-input_file="/path/to/lof.txt"
+input_file="/path/to/variants.txt"
 line=$(sed -n "${SLURM_ARRAY_TASK_ID}p" "$input_file")
 
 # Split the line by "_p."
@@ -35,7 +35,7 @@ echo "Processing Gene: $Gene"
 echo "Ref AA: $ref_aa"
 echo "Index: $pos"
 echo "Alt AA: $alt_aa"
-python /path/to/alphamissense/test/run_AM.py \
+python ./omics_project/omics_models/01_run_AM.py \
 /path/to/uniprotkb_AND_model_organism_9606.fasta \
 $Gene \
 $ref_aa \
