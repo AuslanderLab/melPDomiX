@@ -1,6 +1,6 @@
 ## Overview
 
-This README describes the code used in Figure 3d-f and supplementary odds ratio heatmap plots.
+This README describes the code used to generate Figures 3d-f and Supplementary Figure 3.
 
 ## Calculation of Pathway Scores
 
@@ -40,18 +40,3 @@ Plotting was performed in R 4.2.1 using the following packages:
 - dplyr
 - ggplot2
 - corrplot
-
-## Supplementary Figure: Odds Ratio Heatmaps
-
-**Overview**
-
-Five pre-assembled lists of pathways are assembled into a dictionary mapping pathway to a list of genes in the pathway. Previously-assembled lists of likely loss-of-function (lof), gain-of-function (gof), germline, and somatic variants are imported. For each variant list (gof, lof, somatic, germline), a hypergeometric distribution is run measuring the intersection of genes in a pathway and the variant list. All p-values are FDR corrected and assembled into a single dataframe. Fisher's exact tests are run for each combination of variant list, quantifying the enrichment of gof/lof variants in the lists of germline/somatic variants. Results from the Fisher's exact tests are plotted as heatmaps.
-
-**Packages Used**
-
-The following packages were used in Python 3.9.17:
-- pandas
-- scipy
-- statsmodels
-- matplotlib
-- seaborn
