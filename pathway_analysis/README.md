@@ -24,6 +24,7 @@ Patients given targeted therapy:
 - those responded partially or completely to treatment
 
 **Packages Used**
+
 Pathway scores were calculated in Python 3.9.17 with the following packages:
 - pandas
 - scipy
