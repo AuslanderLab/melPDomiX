@@ -34,6 +34,7 @@ Patients given targeted therapy:
 Pathway scores were calculated in Python 3.9.17 with the following packages:
 - pandas
 - scipy
+
 Plotting was performed in R 4.2.1 using the following packages:
 - dplyr
 - ggplot2
