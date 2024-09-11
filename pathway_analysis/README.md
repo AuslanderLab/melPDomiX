@@ -20,9 +20,9 @@ Pathway score dataframes for WES, RNA-seq, and RPPA are imported and labeled wit
 Pathways of interest are selected and reordered for ease of visualization. After slight dataframe reformatting, correlation matrices for each phenotype and treatment type are plotted using the corrplot package. Additional code is included for a strategy tested where RPPA data with isoforms of the same gene are first averaged before calculating overall RPPA score. Code for plotting the following correlation plots is included:
 
 Patients given immunotherapy:
-**- those who did not respond to treatment (figure 3d)**
-**- those with mixed response to treatment or who maintained stable disease (figure 3e)**
-**- those responded partially or completely to treatment (figure 3f)**
+- those who did not respond to treatment **(figure 3d)**
+- those with mixed response to treatment or who maintained stable disease **(figure 3e)**
+- those responded partially or completely to treatment **(figure 3f)**
 
 Patients given targeted therapy:
 - those who did not respond to treatment
